@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="svr_hkct:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>svr_hkct</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="hkct.war">
+      <element id="artifact" artifact-name="svr_hkct:war exploded" />
+    </root>
+  </artifact>
+</component>

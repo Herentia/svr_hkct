@@ -1,0 +1,14 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /hkct
+spring:
+  datasource:
+    #   数据源基本配置
+    username: gisvue
+    password: gisvue
+    driver-class-name: oracle.jdbc.driver.OracleDriver #com.mysql.jdbc.Driver
+    url: jdbc:oracle:thin:@localhost:1521:MYGIS
+    type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    database-platform: org.hibernate.spatial.dialect.oracle.OracleSpatial10gDialect
