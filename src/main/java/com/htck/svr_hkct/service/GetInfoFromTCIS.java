@@ -11,6 +11,6 @@ public interface GetInfoFromTCIS {
      * 通过调压器获取信息
      * @return  string
      */
-    String getInfoFromTCIS(String stationrisercode, String flag);
+    String getInfoFromTCIS(String stationrisercode, String flag, Integer tid);
 
 }

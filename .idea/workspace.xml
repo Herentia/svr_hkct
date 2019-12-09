@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="svr_hkct:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="469b0453-4d04-4ff5-9d05-1cab2080c289" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dao/AESummaryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dao/GSUserInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/entity/AESummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/entity/GSUserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/controller/HkctTCISController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/controller/HkctTCISController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/service/GetInfoFromTCIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/service/GetInfoFromTCIS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/service/impl/GetInfoFromTCISImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/service/impl/GetInfoFromTCISImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/htck/svr_hkct/SvrHkctApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htck/svr_hkct/SvrHkctApplicationTests.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="svr_hkct" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/controller/HkctTCISController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="docComment;class#HkctTCISController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/service/impl/GetInfoFromTCISImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="60" column="59" lean-forward="true" selection-start-line="60" selection-start-column="59" selection-end-line="60" selection-end-column="59" />
+              <folding>
+                <element signature="docComment;class#GetInfoFromTCISImpl#0" />
+                <element signature="e#1758#1774#0" expanded="true" />
+                <element signature="e#2017#2038#0" expanded="true" />
+                <element signature="e#4674#4686#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>inParam1</find>
+      <find>parameterCount</find>
+      <find>EMPTY_LIST</find>
+      <find>ACTION</find>
+      <find>Action</find>
+      <find>parameterList</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dto/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/SvrHkctApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/vo/ResultVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/service/GovService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/service/impl/GovServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/entity/Governor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/entity/Riser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dao/AeTraceDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dao/RiserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dao/GovDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dao/PipeDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/entity/Pipe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/entity/Valve.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dao/GasSourceDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/entity/GasSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/service/AeTraceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/vo/ResultVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dao/ValveDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dto/PPara.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dto/AeDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dao/IftPeopleDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/entity/IftPeople.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/entity/GasUsers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dao/GasUsersDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/service/impl/AeTraceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/util/ResultVOUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/controller/HkctController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/util/ScadaUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/entity/ScadaPt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dto/echartScada.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dto/echartDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dto/EchartDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/controller/HkctScadaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/entity/ScadaName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dao/ScadaDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/service/ScadaService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/util/ExcelUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/service/impl/ScadaServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/config/RestConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/config/CorsConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/service/GetInfoFromTCIS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/entity/GSUserInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dao/GSUserInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/entity/AESummary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dao/AESummaryDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/htck/svr_hkct/SvrHkctApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/controller/HkctTCISController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/service/impl/GetInfoFromTCISImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="svr_hkct" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="svr_hkct" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="766" />
+    <option name="y" value="6" />
+    <option name="width" value="1082" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="svr_hkct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svr_hkct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svr_hkct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svr_hkct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svr_hkct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svr_hkct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="htck" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svr_hkct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="htck" type="462c0819:PsiDirectoryNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svr_hkct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="htck" type="462c0819:PsiDirectoryNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svr_hkct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="htck" type="462c0819:PsiDirectoryNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svr_hkct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="htck" type="462c0819:PsiDirectoryNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svr_hkct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="htck" type="462c0819:PsiDirectoryNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svr_hkct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="htck" type="462c0819:PsiDirectoryNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svr_hkct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="htck" type="462c0819:PsiDirectoryNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svr_hkct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svr_hkct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svr_hkct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svr_hkct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svr_hkct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="htck" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svr_hkct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="htck" type="462c0819:PsiDirectoryNode" />
+              <item name="svr_hkct" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.htck.svr_hkct.config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SvrHkctApplication">
+    <configuration name="SvrHkctApplicationTests.AESummaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="svr_hkct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.htck.svr_hkct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.htck.svr_hkct" />
+      <option name="MAIN_CLASS_NAME" value="com.htck.svr_hkct.SvrHkctApplicationTests" />
+      <option name="METHOD_NAME" value="AESummaryTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SvrHkctApplicationTests.AETrace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="svr_hkct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.htck.svr_hkct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.htck.svr_hkct" />
+      <option name="MAIN_CLASS_NAME" value="com.htck.svr_hkct.SvrHkctApplicationTests" />
+      <option name="METHOD_NAME" value="AETrace" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SvrHkctApplicationTests.userInfoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="svr_hkct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.htck.svr_hkct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.htck.svr_hkct" />
+      <option name="MAIN_CLASS_NAME" value="com.htck.svr_hkct.SvrHkctApplicationTests" />
+      <option name="METHOD_NAME" value="userInfoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SvrHkctApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="svr_hkct" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.htck.svr_hkct.SvrHkctApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SvrHkctApplicationTests.AETrace" />
+        <item itemvalue="JUnit.SvrHkctApplicationTests.userInfoTest" />
+        <item itemvalue="JUnit.SvrHkctApplicationTests.AESummaryTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.42528737" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="469b0453-4d04-4ff5-9d05-1cab2080c289" name="Default Changelist" comment="" />
+      <created>1559204530595</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559204530595</updated>
+      <workItem from="1559204537807" duration="3065000" />
+      <workItem from="1559721927717" duration="1388000" />
+      <workItem from="1559727670608" duration="1050000" />
+      <workItem from="1561458389634" duration="2889000" />
+      <workItem from="1561511382950" duration="30314000" />
+      <workItem from="1561599477883" duration="29200000" />
+      <workItem from="1561686422581" duration="21970000" />
+      <workItem from="1562120946345" duration="3376000" />
+      <workItem from="1562660344502" duration="1517000" />
+      <workItem from="1562724960211" duration="10320000" />
+      <workItem from="1562829655070" duration="1478000" />
+      <workItem from="1562898650595" duration="5269000" />
+      <workItem from="1563154829075" duration="4588000" />
+      <workItem from="1563240225628" duration="6275000" />
+      <workItem from="1563325588012" duration="2259000" />
+      <workItem from="1563334034772" duration="724000" />
+      <workItem from="1563758682246" duration="746000" />
+      <workItem from="1564991816379" duration="844000" />
+      <workItem from="1566461765264" duration="224000" />
+      <workItem from="1570687626740" duration="5844000" />
+      <workItem from="1574066570298" duration="3292000" />
+      <workItem from="1574126603912" duration="3720000" />
+      <workItem from="1574233676703" duration="677000" />
+      <workItem from="1574300137108" duration="11015000" />
+      <workItem from="1574386414577" duration="12736000" />
+      <workItem from="1574645340467" duration="1639000" />
+      <workItem from="1574663140259" duration="814000" />
+      <workItem from="1574818195733" duration="12920000" />
+      <workItem from="1574904799731" duration="7420000" />
+      <workItem from="1574991128568" duration="911000" />
+      <workItem from="1575250234945" duration="11696000" />
+      <workItem from="1575337872781" duration="1955000" />
+      <workItem from="1575424117072" duration="3570000" />
+      <workItem from="1575856331380" duration="9138000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SvrHkctApplicationTests_AETrace - 2019.12.02 at 14h 21m 26s.xml">
+      <configuration name="SvrHkctApplicationTests.AETrace" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SvrHkctApplicationTests_AETrace - 2019.12.02 at 14h 23m 12s.xml">
+      <configuration name="SvrHkctApplicationTests.AETrace" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SvrHkctApplicationTests_AETrace - 2019.12.02 at 14h 27m 31s.xml">
+      <configuration name="SvrHkctApplicationTests.AETrace" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SvrHkctApplicationTests_AETrace - 2019.12.02 at 14h 31m 45s.xml">
+      <configuration name="SvrHkctApplicationTests.AETrace" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SvrHkctApplicationTests_AETrace - 2019.12.02 at 14h 35m 51s.xml">
+      <configuration name="SvrHkctApplicationTests.AETrace" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SvrHkctApplicationTests_AETrace - 2019.12.02 at 14h 40m 22s.xml">
+      <configuration name="SvrHkctApplicationTests.AETrace" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SvrHkctApplicationTests_AETrace - 2019.12.03 at 09h 56m 31s.xml">
+      <configuration name="SvrHkctApplicationTests.AETrace" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SvrHkctApplicationTests_AETrace - 2019.12.03 at 09h 57m 21s.xml">
+      <configuration name="SvrHkctApplicationTests.AETrace" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SvrHkctApplicationTests_AETrace - 2019.12.03 at 09h 58m 28s.xml">
+      <configuration name="SvrHkctApplicationTests.AETrace" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SvrHkctApplicationTests_AETrace - 2019.12.03 at 09h 59m 08s.xml">
+      <configuration name="SvrHkctApplicationTests.AETrace" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="214843000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49099836" visible="true" weight="0.31316188" />
+      <window_info id="Structure" order="1" sideWeight="0.5090016" side_tool="true" weight="0.30257186" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.501634" side_tool="true" weight="0.24962178" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32569557" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39770868" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Spring" order="10" weight="0.32733223" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32843137" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.2549168" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.10/druid-1.1.10.jar!/com/alibaba/druid/pool/DruidPooledCallableStatement.class</url>
+          <line>387</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/oracle/ojdbc6/11.2.0.1.0/ojdbc6-11.2.0.1.0.jar!/oracle/jdbc/driver/OracleSql.class</url>
+          <line>1258</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/oracle/ojdbc6/11.2.0.1.0/ojdbc6-11.2.0.1.0.jar!/oracle/jdbc/driver/OracleCallableStatement.class</url>
+          <line>3190</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/service/impl/GetInfoFromTCISImpl.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/service/impl/GetInfoFromTCISImpl.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dto/EchartDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/entity/ScadaPt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#ScadaPt#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/entity/ScadaName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/util/ExcelUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/service/impl/ScadaServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="111" column="27" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getScadaForJson#0;class#ScadaServiceImpl#0" />
+            <element signature="method#reportExcel#0;class#ScadaServiceImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/service/ScadaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dao/ScadaDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/controller/HkctController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="68" column="30" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="30" />
+          <folding>
+            <element signature="docComment;class#HkctController#0" />
+            <element signature="method#getUser#0;class#HkctController#0" />
+            <element signature="method#getTid#0;class#HkctController#0" />
+            <element signature="method#getAeCurRes#0;class#HkctController#0" />
+            <element signature="e#1884#1947#1" />
+            <element signature="method#test#0;class#HkctController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/config/RestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-89" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar!/org/springframework/web/bind/annotation/RequestParam.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/controller/HkctScadaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/entity/Riser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="docComment;class#Riser#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dao/RiserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/entity/Governor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-188">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dao/GasSourceDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dao/ValveDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dao/PipeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_101/src.zip!/java/lang/Long.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="834" column="23" selection-start-line="834" selection-start-column="23" selection-end-line="834" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.8.RELEASE/spring-data-commons-2.1.8.RELEASE.jar!/org/springframework/data/repository/Repository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.8.RELEASE/spring-data-commons-2.1.8.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar!/org/springframework/web/bind/annotation/CrossOrigin.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/service/AeTraceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+          <folding>
+            <element signature="docComment;class#CorsConfig#0" />
+            <element signature="e#663#683#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/service/GetInfoFromTCIS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="76" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="85" column="21" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar!/org/springframework/http/HttpEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#1193#1194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dao/GasUsersDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/entity/GasUsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="docComment;class#GasUsers#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.8.RELEASE/spring-data-commons-2.1.8.RELEASE.jar!/org/springframework/data/repository/query/QueryByExampleExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.8.RELEASE/spring-data-commons-2.1.8.RELEASE.jar!/org/springframework/data/repository/PagingAndSortingRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.8.RELEASE/spring-data-jpa-2.1.8.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dao/GSUserInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding>
+            <element signature="docComment;class#GSUserInfoDao#0" />
+            <element signature="docComment;method#save#0;class#GSUserInfoDao#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/entity/GSUserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#GSUserInfo#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/entity/AESummary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#AESummary#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/htck/svr_hkct/SvrHkctApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="77" column="33" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
+          <folding>
+            <element signature="method#userInfoTest#0;class#SvrHkctApplicationTests#0" />
+            <element signature="method#AESummaryTest#0;class#SvrHkctApplicationTests#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar!/org/springframework/http/HttpHeaders.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+          <folding>
+            <element signature="e#5966#5967#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/oracle/ojdbc6/11.2.0.1.0/ojdbc6-11.2.0.1.0.jar!/oracle/jdbc/driver/T4CCallableStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/oracle/ojdbc6/11.2.0.1.0/ojdbc6-11.2.0.1.0.jar!/oracle/jdbc/driver/OraclePreparedStatementWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="160" selection-start-line="160" selection-end-line="160" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.10/druid-1.1.10.jar!/com/alibaba/druid/pool/DruidPooledPreparedStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="332" column="16" selection-start-line="332" selection-start-column="16" selection-end-line="332" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_101/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="2421" selection-start-line="2421" selection-end-line="2421" />
+          <folding>
+            <element signature="e#94636#94637#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/oracle/ojdbc6/11.2.0.1.0/ojdbc6-11.2.0.1.0.jar!/oracle/jdbc/driver/OracleCallableStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/dao/AESummaryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding>
+            <element signature="docComment;class#AESummaryDao#0" />
+            <element signature="docComment;method#getOne#0;class#AESummaryDao#0" />
+            <element signature="docComment;method#findByTid#0;class#AESummaryDao#0" />
+            <element signature="docComment;method#save#0;class#AESummaryDao#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/oracle/ojdbc6/11.2.0.1.0/ojdbc6-11.2.0.1.0.jar!/oracle/jdbc/driver/OracleSql.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="654" selection-start-line="654" selection-end-line="654" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/oracle/ojdbc6/11.2.0.1.0/ojdbc6-11.2.0.1.0.jar!/oracle/jdbc/driver/OraclePreparedStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="2427" selection-start-line="2427" selection-end-line="2427" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/controller/HkctTCISController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="docComment;class#HkctTCISController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="557" selection-start-line="557" selection-end-line="557" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/htck/svr_hkct/service/impl/GetInfoFromTCISImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="60" column="59" lean-forward="true" selection-start-line="60" selection-start-column="59" selection-end-line="60" selection-end-column="59" />
+          <folding>
+            <element signature="docComment;class#GetInfoFromTCISImpl#0" />
+            <element signature="e#1758#1774#0" expanded="true" />
+            <element signature="e#2017#2038#0" expanded="true" />
+            <element signature="e#4674#4686#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

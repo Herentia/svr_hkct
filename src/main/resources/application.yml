@@ -5,10 +5,13 @@ server:
 spring:
   datasource:
     #   数据源基本配置
-    username: gisvue
-    password: gisvue
+    username: gistest
+    password: gistest
     driver-class-name: oracle.jdbc.driver.OracleDriver #com.mysql.jdbc.Driver
     url: jdbc:oracle:thin:@localhost:1521:MYGIS
     type: com.alibaba.druid.pool.DruidDataSource
   jpa:
     database-platform: org.hibernate.spatial.dialect.oracle.OracleSpatial10gDialect
+    properties:
+      hibernate:
+        enable_lazy_load_no_trans: true   #开启懒加载
